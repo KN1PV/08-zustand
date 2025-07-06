@@ -8,7 +8,14 @@ export const metadata: Metadata = {
     title: "Сторінку не знайдено",
     description: "Сторінку, яку ви шукаєте, не існує",
     url: "https://notehub.app/not-found",
-    images: "https://ac.goit.global/fullstack/react/notehub-og-meta.jpg",
+    images: [
+      {
+        url: "/page-note-found.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "page not found",
+      },
+    ],
   },
 };
 
